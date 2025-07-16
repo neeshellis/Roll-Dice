@@ -3,6 +3,18 @@ function getRandomInt(max) {
 }
 
 console.log(getRandomInt(6));
-// Expected output: 0, 1 or 2
+
+
+//test
+
+console.log(getRandomInt(7)>7)
+
+console.log(getRandomInt(8)>7)
+
+
+// if (getRandomInt(7)>0) {
+
+//   throw new Error("Test failed");
+// }
 
 
