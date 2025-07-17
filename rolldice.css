@@ -8,6 +8,10 @@ text {
   color: rgb(114, 161, 38);
 }
 
+h2 {
+  color: rgb(195, 209, 143);
+}
+
 .container {
   display: flex;
   min-height: 100vh;

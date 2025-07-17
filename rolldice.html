@@ -7,6 +7,7 @@
 width, initial-scale=1.0">
     <link rel="stylesheet" href="rolldice.css" />
     <title>Roll Dice</title>
+    <script src="rolldice.js"></script>
 </head>
 
 <body>
@@ -17,17 +18,17 @@ width, initial-scale=1.0">
             <br>
             <img src="imagesRD/6dice.jpg" alt="Roll Dice 6">
             <br>
-            <button onclick="getRandomInt(6)">Roll Dice 6</button>
-        
+            <button onclick="getRandomInt6(6)">Roll Dice 6</button>
+        <p id="demo6"></p>
         </div>
         <div class="column" id="column2">
             <h1 id="heading2">10 Sided Dice</h1>
             <br>
             <br>
-            <img src="imagesRD/10dice.jpg" alt="6 Sided Dice">
+            <img src="imagesRD/10dice.jpg" alt="10 Sided Dice">
             <br>
-            <button onclick="getRandomInt(10)">Roll Dice 10</button>
-            
+            <button onclick="getRandomInt10(10)">Roll Dice 10</button>
+        <p id="demo10"></p>
         </div>
     </div>
 </body>
